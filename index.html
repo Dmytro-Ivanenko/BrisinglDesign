@@ -13,7 +13,7 @@
                   rel="stylesheet"
             />
             <!-- styles -->
-            <link rel="stylesheet" href="./styles.scss" />
+            <link rel="stylesheet" href="./styles.css" />
             <link
                   rel="stylesheet"
                   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -26,155 +26,169 @@
             <section class="hero">
                   <div class="container">
                         <header>
-                              <ul>
-                                    <li><a href="#aboutMe">About me</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="#contacts">Contacts</a></li>
+                              <ul class="header_list">
+                                    <li><a class="header_link" href="#aboutMe">About me</a></li>
+                                    <li><a class="header_link" href="#portfolio">Portfolio</a></li>
+                                    <li><a class="header_link" href="#contacts">Contacts</a></li>
                               </ul>
                         </header>
-
+                        <img class="hero_img" src="./images/heroDecoration.png" alt="abstraction" />
                         <div class="hero_title">
-                              <div>2025</div>
+                              <div class="hero_year">2025</div>
                               <h1>BRISINGL DESIGN</h1>
-                              <div>2025</div>
+                              <div class="hero_year">2025</div>
                         </div>
-                        <img src="./images/arrow.svg" alt="arrow" />
+
+                        <img class="arrow" src="./images/arrow.svg" alt="arrow" />
                   </div>
             </section>
+            <img class="hero_bottom_img" src="./images/hero_bottom.svg" alt="" />
 
             <!-- About -->
             <section id="aboutMe" class="about">
-                  <h2>Web designer who believes that every website should tell a story</h2>
-                  <div class="divider line1"></div>
-                  <ul class="advantages">
-                        <li>
-                              <h3>DESIGN WITH PURPOSE</h3>
-                              <p>
-                                    I craft websites that don’t just look good — they solve
-                                    problems, guide users, and reflect your brand’s essence.
-                              </p>
-                        </li>
-                        <li>
-                              <h3>USER-FIRST LOGIC</h3>
-                              <p>
-                                    My approach combines structure, clarity, and empathy — so every
-                                    screen feels effortless to use.
-                              </p>
-                        </li>
-                        <li>
-                              <h3>DIVE DEEP INTO THE PROCESS</h3>
-                              <p>
-                                    I am fully immersed into your goals, audience, and story to
-                                    build websites that feel personal, thoughtful, and alive.
-                              </p>
-                        </li>
-                  </ul>
-                  <div class="divider line2"></div>
+                  <div class="container">
+                        <h2>Web designer who believes that every website should tell a story</h2>
+                        <div class="divider line1"></div>
+                        <ul class="advantages">
+                              <li>
+                                    <h3>DESIGN WITH PURPOSE</h3>
+                                    <p>
+                                          I craft websites that don’t just look good — they solve
+                                          problems, guide users, and reflect your brand’s essence.
+                                    </p>
+                              </li>
+                              <li>
+                                    <h3>USER-FIRST LOGIC</h3>
+                                    <p>
+                                          My approach combines structure, clarity, and empathy — so
+                                          every screen feels effortless to use.
+                                    </p>
+                              </li>
+                              <li>
+                                    <h3>DIVE DEEP INTO THE PROCESS</h3>
+                                    <p>
+                                          I am fully immersed into your goals, audience, and story
+                                          to build websites that feel personal, thoughtful, and
+                                          alive.
+                                    </p>
+                              </li>
+                        </ul>
+                        <div class="divider line2"></div>
 
-                  <!-- moodboard -->
-                  <div class="moodboard">
-                        <img src="./images/mood.png" alt="abstraction" />
-                        <div class="moodbord_wrapper">
-                              <h3>MOODBOARD</h3>
-                              <p>
-                                    I start every project with a moodboard — a visual collage that
-                                    captures the tone, style, and direction of the design. It’s more
-                                    than just a collection of pretty images; it’s a way to translate
-                                    abstract ideas into a clear visual language through color,
-                                    texture, typography, and composition. The moodboard becomes a
-                                    shared reference point that keeps both me and the client aligned
-                                    from the very beginning.
-                              </p>
-                              <ol>
-                                    <li>
-                                          <p>Aligns vision early</p>
-                                    </li>
-                                    <li>
-                                          <p>Speeds up the process</p>
-                                    </li>
-                                    <li>
-                                          <p>Builds trust</p>
-                                    </li>
-                                    <li>
-                                          <p>Sets the creative tone</p>
-                                    </li>
-                              </ol>
+                        <!-- moodboard -->
+                        <div class="moodboard">
+                              <img src="./images/mood.png" alt="abstraction" />
+                              <div class="moodbord_wrapper">
+                                    <h3>MOODBOARD</h3>
+                                    <p>
+                                          I start every project with a moodboard — a visual collage
+                                          that captures the tone, style, and direction of the
+                                          design. It’s more than just a collection of pretty images;
+                                          it’s a way to translate abstract ideas into a clear visual
+                                          language through color, texture, typography, and
+                                          composition. The moodboard becomes a shared reference
+                                          point that keeps both me and the client aligned from the
+                                          very beginning.
+                                    </p>
+                                    <ol>
+                                          <li>
+                                                <p>Aligns vision early</p>
+                                          </li>
+                                          <li>
+                                                <p>Speeds up the process</p>
+                                          </li>
+                                          <li>
+                                                <p>Builds trust</p>
+                                          </li>
+                                          <li>
+                                                <p>Sets the creative tone</p>
+                                          </li>
+                                    </ol>
+                              </div>
                         </div>
+                        <div class="divider line3"></div>
                   </div>
-                  <div class="divider line3"></div>
             </section>
 
             <!-- Portfolio -->
             <section id="portfolio" class="portfolio">
-                  <h2>Portfolio</h2>
-                  <ul>
-                        <li>
-                              <h3>PROJECT #1</h3>
-                              <p>
-                                    The goal was to create a visually rich and atmospheric website
-                                    that informs and inspires fans of the Solo Leveling anime,
-                                    conveying the aesthetics of dark fantasy and gamer dynamics.
-                              </p>
-                              <img src="./images/project1.jpg" alt="project image" />
-                              <div class="divider line4"></div>
-                        </li>
-                        <li>
-                              <div class="divider line4"></div>
+                  <div class="container">
+                        <h2>Portfolio</h2>
+                        <ul>
+                              <li>
+                                    <h3>PROJECT #1</h3>
+                                    <p>
+                                          The goal was to create a visually rich and atmospheric
+                                          website that informs and inspires fans of the Solo
+                                          Leveling anime, conveying the aesthetics of dark fantasy
+                                          and gamer dynamics.
+                                    </p>
+                                    <img src="./images/project1.jpg" alt="project image" />
+                                    <div class="divider line4"></div>
+                              </li>
+                              <li>
+                                    <div class="divider line4"></div>
 
-                              <h3>PROJECT #2</h3>
-                              <p>
-                                    CoffeeGo is a mobile app designed for a specialty coffee shop
-                                    that delivers freshly brewed drinks straight to your door. The
-                                    goal was to combine minimalist design with a seamless ordering
-                                    flow — so users can go from craving to sipping in just a few
-                                    taps.
-                              </p>
-                              <img src="./images/project2.jpg" alt="project image" />
-                              <div class="divider line5"></div>
-                        </li>
-                        <li>
-                              <h3>PROJECT #3</h3>
-                              <p>
-                                    Goal was to develop a web service interface for "change of
-                                    environment" - work and rest in a new place. The idea is similar
-                                    to couch-surfing, but for the opportunity to "host"
-                                    (accommodation, food, etc.) the visitor must pay (or rather -
-                                    perform the work indicated by the hosts).
-                              </p>
-                              <img src="./images/project3.jpg" alt="project image" />
-                              <div class="divider line6"></div>
-                        </li>
-                  </ul>
+                                    <h3>PROJECT #2</h3>
+                                    <p>
+                                          CoffeeGo is a mobile app designed for a specialty coffee
+                                          shop that delivers freshly brewed drinks straight to your
+                                          door. The goal was to combine minimalist design with a
+                                          seamless ordering flow — so users can go from craving to
+                                          sipping in just a few taps.
+                                    </p>
+                                    <img src="./images/project2.jpg" alt="project image" />
+                                    <div class="divider line5"></div>
+                              </li>
+                              <li>
+                                    <h3>PROJECT #3</h3>
+                                    <p>
+                                          Goal was to develop a web service interface for "change of
+                                          environment" - work and rest in a new place. The idea is
+                                          similar to couch-surfing, but for the opportunity to
+                                          "host" (accommodation, food, etc.) the visitor must pay
+                                          (or rather - perform the work indicated by the hosts).
+                                    </p>
+                                    <img src="./images/project3.jpg" alt="project image" />
+                                    <div class="divider line6"></div>
+                              </li>
+                        </ul>
+                  </div>
             </section>
 
             <!-- Contacts -->
             <footer id="contacts">
-                  <address>
-                        <h2>Contacts</h2>
-                        <p>Lets write a new story together.</p>
-                        <ul>
-                              <li>
-                                    <img src="./images/sms.svg" alt="email icon" /><a
-                                          href="mailto:brisingl@gmail.com"
-                                          >brisingl@gmail.com</a
-                                    >
-                              </li>
-                              <li>
-                                    <img src="./images/instagram.svg" alt="instagram icon" /><a
-                                          href="https://www.instagram.com/brisingl.design?igsh=MXJpZGo0OHg4bXloYw=="
-                                          >brisingl.design</a
-                                    >
-                              </li>
-                              <li>
-                                    <img src="./images/be.svg" alt="behance icon" /><a
-                                          href="https://www.behance.net/kateshelest"
-                                          >behance.net/kateshelest</a
-                                    >
-                              </li>
-                        </ul>
-                  </address>
+                  <div class="container">
+                        <address>
+                              <h2>Contacts</h2>
+                              <p>Lets write a new story together.</p>
+                              <ul>
+                                    <li>
+                                          <img src="./images/sms.svg" alt="email icon" /><a
+                                                href="mailto:brisingl@gmail.com"
+                                                >brisingl@gmail.com</a
+                                          >
+                                    </li>
+                                    <li>
+                                          <img
+                                                src="./images/instagram.svg"
+                                                alt="instagram icon"
+                                          /><a
+                                                href="https://www.instagram.com/brisingl.design?igsh=MXJpZGo0OHg4bXloYw=="
+                                                >brisingl.design</a
+                                          >
+                                    </li>
+                                    <li>
+                                          <img src="./images/be.svg" alt="behance icon" /><a
+                                                href="https://www.behance.net/kateshelest"
+                                                >behance.net/kateshelest</a
+                                          >
+                                    </li>
+                              </ul>
+                        </address>
 
-                  <p>&copy; Brisingl design 2025</p>
+                        <p>&copy; Brisingl design 2025</p>
+                  </div>
             </footer>
       </body>
 </html>

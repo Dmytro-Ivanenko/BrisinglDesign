@@ -1,0 +1,119 @@
+body {
+      font-family: "Josefin Slab", serif;
+      overflow-x: hidden;
+}
+
+* {
+      /* outline: 1px solid red; */
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      padding: 0px 15%;
+}
+
+a {
+      text-decoration: none;
+}
+/* HERO */
+
+.hero {
+      min-height: 730px;
+
+      background-color: #2b2b2b;
+      position: relative;
+      /* overflow: hidden; */
+}
+.hero_img {
+      position: absolute;
+      width: 100%;
+      max-width: 1600px;
+      top: 0%;
+      left: 50%;
+
+      transform: translate(-50%, -0%);
+
+      z-index: 1;
+}
+
+header {
+      margin-bottom: 200px;
+}
+.header_list {
+      list-style-type: none;
+
+      display: flex;
+      justify-content: right;
+      flex-wrap: wrap;
+      gap: 35px;
+
+      padding-top: 40px;
+}
+.header_link {
+      font-size: 20px;
+      font-weight: 400;
+      color: #ff76bb;
+}
+
+.header_link:hover {
+      color: #ffffff;
+}
+
+.hero_title {
+      display: flex;
+      justify-content: space-between;
+      gap: 125px;
+      margin-bottom: 130px;
+
+      font-family: "Instrument Sans", sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+      color: #ffffff;
+
+      text-align: center;
+      z-index: 100;
+}
+
+.hero_title::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -85%);
+      width: 70%;
+      height: 40%;
+
+      background-color: #ffffff;
+
+      filter: blur(300px);
+      opacity: 0.5;
+      z-index: 2;
+      pointer-events: none;
+}
+
+.hero_year {
+      font-family: "Jacques Francois", serif;
+      font-size: 20px;
+      font-weight: 400;
+
+      writing-mode: vertical-lr;
+      text-align: center;
+      letter-spacing: 18px;
+}
+
+.arrow {
+      width: 64px;
+      height: 74px;
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+      cursor: pointer;
+}
+
+.hero_bottom_img {
+      width: 100%;
+      transform: translate(0px, -2px);
+}

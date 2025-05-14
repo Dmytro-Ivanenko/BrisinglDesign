@@ -1,28 +1,20 @@
-# 💫 Brisingl Design – Personal Portfolio Landing
+# Brisingl Design – Portfolio Landing Page
 
-This is a custom-designed personal portfolio landing page I created as a gift for my girlfriend — a talented web designer. The site reflects her design philosophy, showcases her projects, and makes it easy for visitors to contact her.
+This is a simple one-page portfolio website I built for my girlfriend as part of her college project. She’s studying web design, and this landing page was made to help her present herself, show a few sample projects, and include contact information.
 
-## 🌸 Purpose
+## Purpose
 
-To celebrate and support her creativity by providing an elegant, storytelling-driven platform that:
+- Quick personal intro
+- Showcase of 3 portfolio projects
+- Easy way to get in touch (email, Instagram, Behance)
 
-- Introduces her design style
-- Showcases selected portfolio work
-- Presents her contact info in a warm, professional way
+## Built With
 
-## 🧩 Features
+- HTML5 for layout
+- CSS for styling (with Normalize.css)
+- Google Fonts for typography
+- Minimal JavaScript (setup for future use)
 
-- Clean, minimal layout with vintage vibes
-- Custom typography and visual moodboard
-- Fully responsive structure
-- Light scripting for future interactivity
+---
 
-## 🛠️ Built With
-
-- **HTML5** – semantic layout structure
-- **SCSS/CSS** – custom styling + Normalize.css for consistent browser defaults
-- **JavaScript** – light structure for future enhancements
-- **Google Fonts** – Instrument Sans, Jacques Francois, Josefin Slab
-- **Normalize.css** – [CDN version](https://cdnjs.com/libraries/normalize)
-
-## 📁 Folder Structure
+Made with care for a student project 🎓

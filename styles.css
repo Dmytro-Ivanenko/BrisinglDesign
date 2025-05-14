@@ -1,6 +1,9 @@
 body {
       font-family: "Josefin Slab", serif;
       overflow-x: hidden;
+
+      background-image: url("./images/bcg_pattern.png");
+      background-size: contain;
 }
 
 * {
@@ -23,7 +26,6 @@ a {
 
       background-color: #2b2b2b;
       position: relative;
-      /* overflow: hidden; */
 }
 .hero_img {
       position: absolute;
@@ -33,6 +35,7 @@ a {
       left: 50%;
 
       transform: translate(-50%, -0%);
+      pointer-events: none;
 
       z-index: 1;
 }
@@ -80,7 +83,7 @@ header {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -85%);
+      transform: translate(-50%, -50%);
       width: 70%;
       height: 40%;
 
@@ -114,6 +117,24 @@ header {
 }
 
 .hero_bottom_img {
-      width: 100%;
+      width: 300%;
+
       transform: translate(0px, -2px);
+
+      margin-bottom: 60px;
+}
+
+/* ABOUT */
+
+h2 {
+      font-family: "Instrument Sans", sans-serif;
+      font-weight: 500;
+      font-size: 40px;
+
+      color: #ff76bb;
+}
+
+.about_title {
+      max-width: 740px;
+      margin-bottom: 60px;
 }

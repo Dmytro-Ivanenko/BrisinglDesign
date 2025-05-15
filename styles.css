@@ -70,7 +70,7 @@ header {
       margin-bottom: 130px;
 
       font-family: "Instrument Sans", sans-serif;
-      font-size: 50px;
+      font-size: 40px;
       font-weight: 700;
       color: #ffffff;
 
@@ -125,8 +125,11 @@ header {
 }
 
 /* ABOUT */
-
+.about {
+      font-style: italic;
+}
 h2 {
+      font-style: normal;
       font-family: "Instrument Sans", sans-serif;
       font-weight: 500;
       font-size: 40px;
@@ -137,4 +140,98 @@ h2 {
 .about_title {
       max-width: 740px;
       margin-bottom: 60px;
+}
+
+/* Lines + */
+.divider {
+      width: 100vw;
+      border-bottom: 1px solid rgb(0, 0, 0, 0.6);
+}
+.line1,
+.line2 {
+      margin-bottom: 60px;
+}
+
+.line2 {
+      transform: translateX(-30%);
+}
+
+/* Lines - */
+
+.advantages_list {
+      display: flex;
+      justify-content: space-between;
+      gap: 96px;
+
+      margin-bottom: 60px;
+
+      list-style: none;
+}
+
+.advantages_list_item {
+      max-width: 290px;
+}
+
+.advantages_list_item > h3 {
+      margin-bottom: 10px;
+
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 64px;
+
+      color: #ff76bb;
+}
+
+.advantages_list_item > p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.02em;
+}
+
+/* MOODBOARD */
+
+.moodboard {
+      display: flex;
+      gap: 120px;
+
+      margin-bottom: 60px;
+}
+.moodboard_img {
+      max-width: 360px;
+      max-height: 380px;
+}
+
+.moodbord_wrapper {
+      max-width: 648px;
+}
+
+.moodbord_wrapper > h3 {
+      font-style: normal;
+      font-size: 20px;
+      font-weight: 600;
+
+      line-height: 20px;
+
+      color: #ff76bb;
+
+      margin-bottom: 36px;
+}
+
+.moodbord_wrapper > p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.02em;
+
+      margin-bottom: 60px;
+}
+
+.moodboard_list {
+      padding-left: 18px;
+
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 400;
+      letter-spacing: 0.02em;
 }

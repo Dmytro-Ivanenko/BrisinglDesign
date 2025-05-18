@@ -1,22 +1,32 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 body {
       font-family: "Josefin Slab", serif;
       overflow-x: hidden;
+      /* 
+      background-image: url("./images/bcg_pattern.jpg");
+      background-size: contain; */
+}
 
-      background-image: url("./images/bcg_pattern.png");
-      background-size: contain;
+body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      background-image: url("./images/bcg_pattern.jpg");
+
+      opacity: 0.5; /* ← Your desired opacity */
+      pointer-events: none;
+
+      z-index: -1;
 }
 
 * {
       /* outline: 1px solid red; */
       margin: 0;
       padding: 0;
+      background-color: transparent;
 }
 
 a {

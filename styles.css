@@ -1,9 +1,6 @@
 body {
       font-family: "Josefin Slab", serif;
       overflow-x: hidden;
-      /* 
-      background-image: url("./images/bcg_pattern.jpg");
-      background-size: contain; */
 }
 
 body::before {
@@ -16,14 +13,13 @@ body::before {
 
       background-image: url("./images/bcg_pattern.jpg");
 
-      opacity: 0.5; /* ← Your desired opacity */
+      opacity: 0.5;
       pointer-events: none;
 
       z-index: -1;
 }
 
 * {
-      /* outline: 1px solid red; */
       margin: 0;
       padding: 0;
       background-color: transparent;

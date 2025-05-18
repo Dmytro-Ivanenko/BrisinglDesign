@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
       font-family: "Josefin Slab", serif;
       overflow-x: hidden;
@@ -13,7 +20,11 @@ body {
 }
 
 a {
+      -webkit-transition-property: color;
+      -o-transition-property: color;
       transition-property: color;
+      -webkit-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
       transition-duration: 0.5s;
 }
 
@@ -39,6 +50,10 @@ a {
       top: 0%;
       left: 50%;
 
+      -webkit-transform: translate(-50%, -0%);
+
+      -ms-transform: translate(-50%, -0%);
+
       transform: translate(-50%, -0%);
       pointer-events: none;
 
@@ -52,8 +67,15 @@ header {
 .header_list {
       list-style-type: none;
 
+      display: -webkit-box;
+
+      display: -ms-flexbox;
+
       display: flex;
+      -webkit-box-pack: right;
+      -ms-flex-pack: right;
       justify-content: right;
+      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       gap: 35px;
 
@@ -70,7 +92,11 @@ header {
 }
 
 .hero_title {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       gap: 125px;
       margin-bottom: 130px;
@@ -89,11 +115,15 @@ header {
       position: absolute;
       top: 50%;
       left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       width: 70%;
       height: 40%;
 
       background-color: #ffffff;
+
+      -webkit-filter: blur(300px);
 
       filter: blur(300px);
       opacity: 0.5;
@@ -109,6 +139,10 @@ h1 {
       font-family: "Jacques Francois", serif;
       font-size: 20px;
       font-weight: 400;
+
+      -webkit-writing-mode: vertical-lr;
+
+      -ms-writing-mode: tb-lr;
 
       writing-mode: vertical-lr;
       text-align: center;
@@ -126,23 +160,47 @@ h1 {
 
       cursor: pointer;
 
+      -webkit-transition-property: -webkit-transform;
+
+      transition-property: -webkit-transform;
+
+      -o-transition-property: transform;
+
       transition-property: transform;
+
+      transition-property: transform, -webkit-transform;
+      -webkit-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
       transition-duration: 0.5s;
 
       z-index: 99;
 }
 .arrow:hover {
+      -webkit-transform: scale(1.3) translateY(20px);
+      -ms-transform: scale(1.3) translateY(20px);
       transform: scale(1.3) translateY(20px);
 }
 
 .hero_bottom_img {
       width: 300%;
 
+      -webkit-transform: translateY(-2px);
+
+      -ms-transform: translateY(-2px);
+
       transform: translateY(-2px);
 
       margin-bottom: 60px;
 
+      -webkit-transition: -webkit-transform 0.2s ease-out;
+
+      transition: -webkit-transform 0.2s ease-out;
+
+      -o-transition: transform 0.2s ease-out;
+
       transition: transform 0.2s ease-out;
+
+      transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
 }
 
 /* ABOUT */
@@ -176,6 +234,8 @@ h2 {
 }
 
 .line2 {
+      -webkit-transform: translateX(-30%);
+      -ms-transform: translateX(-30%);
       transform: translateX(-30%);
 }
 
@@ -188,13 +248,19 @@ h2 {
       margin-bottom: 40px;
 }
 .line7 {
+      -webkit-transform: translateX(-30%);
+      -ms-transform: translateX(-30%);
       transform: translateX(-30%);
 }
 
 /* Lines - */
 
 .advantages_list {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       gap: 96px;
 
@@ -230,6 +296,8 @@ h3 {
 }
 
 .moodboard {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       gap: 120px;
 
@@ -355,7 +423,11 @@ h3 {
 }
 
 .contacts_list_item {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       gap: 15px;
 
